@@ -65,7 +65,7 @@
   const dialog = document.createElement('dialog'); dialog.id = 'interval-dialog';
   dialog.setAttribute('aria-labelledby', 'interval-title');
   dialog.innerHTML = `<div class="interval-shell" id="interval-shell">
-    <header class="interval-header"><div><span class="eyebrow">MI ENTRENO ///</span><h2 id="interval-title">Temporizador libre</h2></div><div class="interval-header-actions"><button id="interval-fullscreen">Pantalla completa ⛶</button><button id="interval-close" aria-label="Cerrar y pausar temporizador">Cerrar ✕</button></div></header>
+    <header class="interval-header"><div><span class="eyebrow">MI ENTRENO EN CASA</span><h2 id="interval-title">Temporizador libre</h2></div><div class="interval-header-actions"><button id="interval-fullscreen">Pantalla completa ⛶</button><button id="interval-close" aria-label="Cerrar y pausar temporizador">Cerrar ✕</button></div></header>
     <form id="interval-settings" class="interval-settings">
       <label>Trabajo <span>(segundos)</span><input id="interval-work" type="number" inputmode="numeric" min="1" max="3600" step="1" required value="${config.work}"></label>
       <label>Descanso <span>(segundos)</span><input id="interval-rest" type="number" inputmode="numeric" min="0" max="3600" step="1" required value="${config.rest}"></label>
